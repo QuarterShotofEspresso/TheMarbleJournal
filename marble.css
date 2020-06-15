@@ -1,5 +1,50 @@
-h1 {
-    font-family: "Times New Roman";
+html, body {
+    border: 1px solid black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#title_slide {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+
     font-size: 100px;
     letter-spacing: 50px;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry_slide {
+    border: 1px solid black;
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+}
+
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.leaf_scan {
+    border: 1px solid black;
+}
+
+.leaf_raw {
+    border: 1px solid black;
 }
