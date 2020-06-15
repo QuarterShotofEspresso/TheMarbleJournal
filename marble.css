@@ -41,10 +41,47 @@ td {
     vertical-align: middle;
 }
 
+.leaf_raw {
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leaf_header {
+    border: 1px solid black;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leaf_date {
+    border: 1px solid black;
+}
+
+.leaf_title {
+    border: 1px solid black;
+}
+
+
+.leaf_content {
+    border: 1px solid black;
+    width: 70%;
+
+    display:flex;
+    justify-content: justify;
+}
+
 .leaf_scan {
     border: 1px solid black;
 }
 
-.leaf_raw {
-    border: 1px solid black;
-}
+
+
+
+
