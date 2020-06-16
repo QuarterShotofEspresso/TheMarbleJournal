@@ -1,26 +1,33 @@
-html, body {
+.border {
+/*
     border: 1px solid black;
+*/
+}
+
+html, body {
     margin: 0;
     height: 100%;
     width: 100%;
 }
 
 #title_slide {
-    border: 1px solid black;
     height: 100%;
     width: 100%;
 
     font-size: 100px;
     letter-spacing: 50px;
-    color: black;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: -1px -1px 1px black, 1px 1px 1px white;
     
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: url('marble_wallpaper_1.png');
+    background-size: cover;
 }
 
 .entry_slide {
-    border: 1px solid black;
     height: 80%;
     width: 100%;
 
@@ -28,10 +35,13 @@ html, body {
     justify-content: center;
     align-items:center;
     flex-direction: row;
+
+    background-color: rgb(97, 97, 97);
+    color: rgb(227, 226, 222);
+
 }
 
 table {
-    border: 1px solid black;
     table-layout: fixed;
     width: 100%;
 }
@@ -42,17 +52,13 @@ td {
 }
 
 .leaf_raw {
-    border: 1px solid black;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .leaf_header {
-    border: 1px solid black;
     width: 70%;
 
     display: flex;
@@ -61,25 +67,33 @@ td {
 }
 
 .leaf_date {
-    border: 1px solid black;
+    
 }
 
 .leaf_title {
-    border: 1px solid black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
-
 .leaf_content {
-    border: 1px solid black;
     width: 70%;
 
     display:flex;
     justify-content: justify;
+
+    font-family: 'Source Sans Pro';
 }
 
-.leaf_scan {
-    border: 1px solid black;
+.leaf_extention {
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.leaf_scan { }
 
 
 
