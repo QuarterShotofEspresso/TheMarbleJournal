@@ -14,17 +14,30 @@ html, body {
     height: 100%;
     width: 100%;
 
-    font-size: 100px;
-    letter-spacing: 50px;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: -1px -1px 1px black, 1px 1px 1px white;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 
     background: url('marble_wallpaper_1.png');
     background-size: cover;
+}
+
+h1 {
+    border: 1px solid black;
+
+    height: 100%;
+    width: 100%;
+
+    font-size: 5vw;
+    letter-spacing: 5vw;
+    color: rgb(170, 170, 170);
+    opacity: 0.5;
+    text-shadow: -1px -1px 1px black, 1px 1px 1px white;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
 }
 
 .entry_slide {
